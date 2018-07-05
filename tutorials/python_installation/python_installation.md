@@ -1,15 +1,15 @@
 # Instalace pythonu
-V našem kurzu budeme využívat nejnovější verzi pythonu 3.6 . Před začátkem kurzu by bylo dobré mít python nainstalovaný a mít ověřenou funkčnost. Níže je návod, jak jej nainstalovat a otestovat.
+V našem kurzu budeme využívat nejnovější verzi pythonu 3.7 . Před začátkem kurzu by bylo dobré mít python nainstalovaný a mít ověřenou funkčnost. Níže je návod, jak jej nainstalovat a otestovat.
 
 ## Windows
 ### Stažení
-Jdi na [stahovací stránku](https://www.python.org/downloads/) Pythonu a stáhni si instalátor nejnovější verze __Pythonu (3.6.0 a vyšší)__
+Jdi na [stahovací stránku](https://www.python.org/downloads/) Pythonu a stáhni si instalátor nejnovější verze __Pythonu (3.7.0 a vyšší)__
 
 Pokud máš novější počítač, nejspíš bude tvůj windows 64-bit, proto stáhni 64-bit verzi. Kdyby sis chtěl být jistý, koukni se do Systémových informací (__Start__ -> vyhledat "Systém" a otevřít "Systémové informace") a pod údajem o procesoru a RAM uvidíš tvůj typ operačního systému (32-bit nebo 64-bit).
 
 ### Instalace
 
-Jedná se o normálni instalátor. Na začátku nezapomeň zaškrtnout "Add Python 3.6 to PATH" a zvol možnost "Install now", která zahrnuje editor IDLE, pip a dokumentaci.
+Jedná se o normálni instalátor. Na začátku nezapomeň zaškrtnout "Add Python 3.7 to PATH" a zvol možnost "Install now", která zahrnuje editor IDLE, pip a dokumentaci.
 
 ![Alt Text](https://github.com/nguyeho7/vietcode2018/blob/master/tutorials/python_installation/python_installer.png "Python installer")
 
