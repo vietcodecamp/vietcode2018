@@ -1,6 +1,6 @@
 # Exercises - Start
 
-## Reading exercise
+## Reading exercise
 * What will happen? Try to guess before running it in the python shell
 
 ```python
