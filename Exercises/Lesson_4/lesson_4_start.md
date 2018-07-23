@@ -1,6 +1,5 @@
 # Exercises - Start
-
-## Warm-up
+## Warm-up
 * Given an array of numbers `cisla = [4.5, 1.5, 1.2, 8.9, 2.3]` calculate the **sum** of the numbers
   * Note: without using `sum()`
   * Hints: calculate the sum using a for loop and save partial results into a variable
