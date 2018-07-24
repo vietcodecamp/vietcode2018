@@ -1,6 +1,6 @@
 # Exercises - Finished
 
-## Reading exercise
+## Reading exercise
 * What will happen? Try to guess before running it in the python shell
 
 ```python
@@ -90,7 +90,7 @@ elif body <= 79 and body >= 70:
 elif body <= 69 and body >= 60:
   print("D")
 elif body <= 59 and body >= 50:
-  print("D")
+  print("E")
 else:
   print("F")  
 ```
