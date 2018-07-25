@@ -1,33 +1,5 @@
 # Exercises - Start
-## Warm-up
-* Given an array of numbers `cisla = [4.5, 1.5, 1.2, 8.9, 2.3]` calculate the **sum** of the numbers
-  * Note: without using `sum()`
-  * Hints: calculate the sum using a for loop and save partial results into a variable
-
-```python
-cisla = [ 4.5, 1.5, 1.2, 8.9, 2.3]
-soucet = 0
-for cislo in cisla:
-    # 1. přičti číslo k proměnné soucet. Nezapomenout na odsazení zleva!
-    soucet += 0
-
-# 2. vytiskni odpověď
-```
-
-* Improve the above code so that it also prints the **average** of the numbers
-
-```python
-cisla = [4.5, 1.5, 1.2, 8.9, 2.3]
-soucet = 0
-for cislo in cisla:
-    # přičti číslo k proměnné soucet. Nezapomenout na odsazení zleva!
-    soucet += 0
-
-# 2. vypočítej průměr
-
-# 3. vytiskni součet a průměr čísel
-
-```  
+# Warm-up
 
 ## Food list
 * Create a list of your favorite foods, for example: `jidla = ["bun cha", "knedlo vepro zelo", "pho", "gulas"]`
@@ -65,6 +37,40 @@ for i in range(5):
 # 2. Vytiskni odpověď  - pro tisk všechno hodnot v listu jidla použij: ', '.join(jidla)
 
 ```
+
+# Hard Exercises
+
+## Accumulation
+* Given an array of numbers `cisla = [4.5, 1.5, 1.2, 8.9, 2.3]` calculate the **sum** of the numbers
+  * Note: without using `sum()`
+  * Hints: calculate the sum using a for loop and save partial results into a variable
+
+```python
+cisla = [ 4.5, 1.5, 1.2, 8.9, 2.3]
+soucet = 0
+for cislo in cisla:
+    # 1. přičti číslo k proměnné soucet. Nezapomenout na odsazení zleva!
+    soucet += 0
+
+# 2. vytiskni odpověď
+```
+
+## Average
+* Improve the above code so that it also prints the **average** of the numbers
+
+```python
+cisla = [4.5, 1.5, 1.2, 8.9, 2.3]
+soucet = 0
+for cislo in cisla:
+    # přičti číslo k proměnné soucet. Nezapomenout na odsazení zleva!
+    soucet += 0
+
+# 2. vypočítej průměr
+
+# 3. vytiskni součet a průměr čísel
+
+```  
+
 ## Average from input
 * Calculate the average shoe size in your class. First ask for the number of students, then get all of their sizes. Then sum and divide them to get the average
 
@@ -80,12 +86,29 @@ soucet_velikosti_bot = 0
 # 5. Vytiskni odpověď
 ```
 
+# Extra exercises for fast campers
 ## Class division
-* Lets say we a class students stored in a list `trida = ["Kevin", "Honza", "Radek", "Tue", "Adéla", "Vojta"]` and we need to divide the class into two halves. We want to have every odd member in one list and every even member in a second list. The result should look like this: `trida_a = ["Kevin", "Radek", "Adéla"]` and `trida_b = ["Honza", "Tue", "Vojta"]`
+* Lets say we a class students stored in a list `trida = ["Kevin", "Honza", "Radek", "Tue", "Adéla", "Vojta"]` and we need to divide the class into two halves. We want to have every odd member in one list and every even member in a second list. The result should look like this: `trida_a = ["Kevin", "Radek", "Adéla"]` and `trida_b = ["Honza", "Tue", "Vojta"]`.
 
 ```python
 trida = ["Kevin", "Honza", "Radek", "Tue", "Adéla", "Vojta"]
 trida_a = []
 trida_b = []
+
+```
+
+## Priority sorting
+* Given a list `jidla = ["bun cha", "knedlo vepro zelo", "pho", "gulas"]` and priorities of the food `priority = [4, 2, 1, 3]
+` This means that "bun cha" has priotity `4`, "pho" has priority `1` and so on. Create a new list with the same food as in `jidla` but in a order defined in `priority` variable. For this example, the expected output would be `["pho", "knedlo vepro zelo", "gulas", "bun cha"]`.
+
+```python
+jidla = ["bun cha", "knedlo vepro zelo", "pho", "gulas"]
+priority = [4, 2, 1, 3]
+serazena_jidla = ["", "", "", ""] # len(jidla) * [""] vytvoří ten samý list
+
+for i in range(len(jidla)):
+    #  1. Vytiskni pořadí a jídlo
+    print()
+    # 2. Zvyš pořadí o 1
 
 ```
