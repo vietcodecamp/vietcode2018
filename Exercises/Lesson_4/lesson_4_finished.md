@@ -121,7 +121,7 @@ print(", ".join(trida_a))
 print(", ".join(trida_b))
 ```
 
-## Priority sorting
+## Priority sorting
 * Given a list `jidla = ["bun cha", "knedlo vepro zelo", "pho", "gulas"]` and priorities of the food `priority = [4, 2, 1, 3]
 ` This means that "bun cha" has priotity `4`, "pho" has priority `1` and so on. Create a new list with the same food as in `jidla` but in a order defined in `priority` variable. For this example, the expected output would be `["pho", "knedlo vepro zelo", "gulas", "bun cha"]`.
 
