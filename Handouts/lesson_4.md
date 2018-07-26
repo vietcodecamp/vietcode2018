@@ -7,8 +7,8 @@
 3. List iteration
 4. Exercises
 
-# Repeating code several times
 
+# Repeating code several times
 
 ![bart-blackboard-board](http://bartsblackboard.com/files/2009/11/the-simpsons-s01e02-Bart-the-Genius.jpg)
 *Avoid this in coding!*
@@ -27,7 +27,9 @@ sentence = 'I will not waste chalk'
 for x in range(100):
     print(sentence)  
 ```
+
 and
+
 ```python
 sentence = 'I will not waste chalk'
 for x in range(100):
