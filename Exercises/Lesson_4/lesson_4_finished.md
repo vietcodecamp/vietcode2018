@@ -1,6 +1,6 @@
 # Exercises - Finished
 
-## Warm-up
+## Warm-up
 
 ## Food list
 * Create a list of your favorite foods, for example: `jidla = ["bun cha", "knedlo vepro zelo", "pho", "gulas"]`
