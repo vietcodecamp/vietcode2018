@@ -1,5 +1,5 @@
-# VietCode 2018
-Workspace for 2018 Kempers.
+# VietCode 2019
+Workspace for 2019 Kempers.
 
 ## Python installation
 The tutorial for the Python installation for various operating systems is [here](../tutorials/python_installation/python_installation.md).
