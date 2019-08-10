@@ -1,0 +1,9 @@
+instrukce na spusteni:
+na linuxu: pip-install opencv
+pip-install cv2
+pip-install numpy
+
+spusteni programu (soubor py)
+ python budik.py -h(pomoc k argumentaci)
+kompletni spusteni: python budik.py -p prototxt.txt -m model.caffemodel
+
